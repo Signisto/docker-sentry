@@ -251,3 +251,5 @@ if len(SECRET_KEY) < 32:
     print('!! We recommend at least 32 characters long. !!')
     print('!!  Regenerate with `generate-secret-key`.   !!')
     print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+
+SENTRY_FEATURES['organizations:create'] = True
