@@ -252,4 +252,6 @@ if len(SECRET_KEY) < 32:
     print('!!  Regenerate with `generate-secret-key`.   !!')
     print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
+SENTRY_SINGLE_ORGANIZATION = False
+SENTRY_FEATURES['organizations:sso'] = False
 SENTRY_FEATURES['organizations:create'] = True
