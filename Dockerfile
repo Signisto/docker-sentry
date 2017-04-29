@@ -1,1 +1,1 @@
-FROM sentry:8.2.2-onbuild
+FROM sentry:8.15.0-onbuild
